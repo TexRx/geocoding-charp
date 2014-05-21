@@ -21,6 +21,7 @@ More information is available at [Maps API Terms of Service License Restrictions
 Your application's App.config or Web.config will need the following <appSettings /> elements:
 
 `<add key="GeocodingApi.Key" value="{your_api_key}" />`
+
 `<add key="GeocodingApi.Url" value="http://maps.google.com/maps/geo?" />`
 
 You will, of course, need to replace `{your_api_key}` with your actual Google Maps API key.
@@ -62,5 +63,5 @@ private static void DisplayCoordinate(GeographicCoordinate coordinate, string ad
 }
 ```
 
-## Requirements
+### Requirements
 This library uses [Json.NET](http://james.newtonking.com/json "Json.NET Home Page"), which requires .NET Framework 3.5 SP1; hence, this library also requires .NET Framework 3.5 SP1.

@@ -59,27 +59,27 @@
     <Compile Include="..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="GeographicCoordinate.cs" />
-    <Compile Include="LowLevelApi\LLAddressDetails.cs" />
-    <Compile Include="LowLevelApi\LLAdministrativeArea.cs" />
-    <Compile Include="LowLevelApi\LLCountry.cs" />
-    <Compile Include="LowLevelApi\LLExtendedData.cs" />
-    <Compile Include="Geocoding.cs" />
-    <Compile Include="LowLevelApi\LLGeocodingRequest.cs">
+    <Compile Include="Models\GeographicCoordinate.cs" />
+    <Compile Include="Models\AddressDetails.cs" />
+    <Compile Include="Models\AdministrativeArea.cs" />
+    <Compile Include="Models\Country.cs" />
+    <Compile Include="Models\ExtendedData.cs" />
+    <Compile Include="Services\Geocoding.cs" />
+    <Compile Include="Models\GeocodingRequest.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="LowLevelApi\LLGeocodingResult.cs">
+    <Compile Include="Models\GeocodingResult.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="LowLevelApi\LLGeocodingResultStatus.cs">
+    <Compile Include="Models\GeocodingResultStatus.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="LowLevelApi\LLLatLonBox.cs" />
-    <Compile Include="LowLevelApi\LLLocality.cs" />
-    <Compile Include="LowLevelApi\LLPlacemark.cs" />
-    <Compile Include="LowLevelApi\LLPoint.cs" />
-    <Compile Include="LowLevelApi\LLPostalCode.cs" />
-    <Compile Include="LowLevelApi\LLThoroughfare.cs" />
+    <Compile Include="Models\LatLonBox.cs" />
+    <Compile Include="Models\Locality.cs" />
+    <Compile Include="Models\Placemark.cs" />
+    <Compile Include="Models\Point.cs" />
+    <Compile Include="Models\PostalCode.cs" />
+    <Compile Include="Models\Thoroughfare.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
